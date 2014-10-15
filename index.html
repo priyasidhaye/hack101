@@ -3,6 +3,11 @@
 		<title>Hello world</title>
 		<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
 		<link rel="stylesheet" type="text/css" href="stylesheets/foundation.css">
+		<script type="text/javascript">
+			function hello() {
+				alert('Hello there!');
+			}
+		</script>
 	</head>
 	<body>
 		<div class='row'>
@@ -30,5 +35,8 @@
 					<p>I like math!</p>
 				</div>
 		</div>	
+		<div class='row' id='hello-button-row'>
+			<a class='large radius button' id='hello-button' onclick="hello();"> Say hello!</a>	
+		</div>
 	</body>
 </html>
