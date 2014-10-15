@@ -9,3 +9,14 @@ li.red-text{
 #special-list-item{
 	color: #0000ff;
 }
+
+div#hello-button-row{
+	padding-top: 100px;
+}
+
+#hello-button{
+	width: 200px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
